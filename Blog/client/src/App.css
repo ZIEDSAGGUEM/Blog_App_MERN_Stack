@@ -1,0 +1,140 @@
+body{
+  color: #ffffff;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background: linear-gradient(to right, #0099f7, #f11712); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+  img{
+  max-width: 60%;
+  height: 60%;
+}
+main{
+  padding: 10px;
+  max-width: 700px;
+  margin: 0 auto;
+
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+header a{
+  text-decoration: none;
+  color:inherit;
+  
+}
+header a.logo{
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+header nav{
+  display: flex;
+  gap: 15px;
+}
+
+
+div.post{
+  display: grid;
+  grid-template-columns: .9fr 1.1fr;
+  align-items: center;
+  margin-bottom: 35px;
+}
+  
+div.post div.texts h2{
+  margin: 0px;
+  font-size: 1.6rem;
+}
+
+
+div.post div.texts a,time{
+ text-decoration: none;
+  color: inherit;
+  margin: 10px 0;
+}
+
+div.post p.info{
+  margin: 6px 0;
+  color: #888;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+
+}
+
+div.post p.info a.author {
+  color: #333;
+}
+
+
+
+div.texts{
+  display: flex;
+  flex-direction: column;
+}
+div.post p.summary{
+  margin: 10px 0;
+  line-height: 1.4rem;
+  font-size: 1.5rem;
+}
+
+form.create,form.login,form.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+input{
+text-align: center;
+margin: 10px auto;
+padding: 10px 20px;
+font-size: 1rem;
+width: 500px;
+
+
+}
+button{
+  width: 300px;
+  background-color: #222;
+  color: aliceblue;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.post-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.edit-row{
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+
+.edit-btn{
+  padding: 10px;
+  background-color: black;
+  display: inline-flex;
+  color: antiquewhite;
+  text-decoration: none;
+  border-radius: 5px;
+  gap: 5px;
+  transition: 0.75s ease-in-out;
+}
+
+.edit-btn:hover{
+  background-color: #836262;
+}
+a svg{
+  height: 20px;
+}
